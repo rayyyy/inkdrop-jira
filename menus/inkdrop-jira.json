@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    ".CodeMirror": [
+      {
+        "label": "Toggle inkdrop-jira",
+        "command": "inkdrop-jira:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "inkdrop-jira",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "inkdrop-jira:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
